@@ -16,7 +16,7 @@ timezone:
 
 title: partyh4t # the main title
 
-tagline: Toss a coin to your... # it will display as the subtitle
+tagline: Toss a coin to your ... # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

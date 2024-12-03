@@ -2,17 +2,17 @@
 layout: post
 title: "HTB Forest: Walkthrough"
 date: 2024-12-03 10:00:00 +0000
-categories: [Home, HTB]
-tags: [HTB, Active Directory, Penetration Testing]
+categories: [HTB]
+tags: [HTB, Active Directory, LDAP, AS-REP Roasting]
+image:
+    path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Forest/Screenshot_1.png
 ---
 
-# Forest
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/b5f78c88-9502-468b-87ee-63a6895921f8)
 
+This machine starts off with LDAP anonymous bind enabled, leading to the discovery of a user with no kerberos pre-auth required. We perform an AS-REP Roast attack on the user, and are able to access the machine with the cracked password. We then utilize Bloodhound to enumerate domain privileges, finding that the user is part of a few privileged groups. This eventually leads to a DC-Sync attack on the DC, compromising the domain.
 
 ## 0) Machine Overview
-- 
-
 
 1. [Scans](#1-scans)
 2. [LDAP Enumeration](#2-ldap-enumeration)

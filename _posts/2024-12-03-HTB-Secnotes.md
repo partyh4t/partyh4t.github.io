@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "HTB Secnotes: Walkthrough"
-date: 2024-12-03 12:00:00 +0000
+date: 2024-12-03 11:00:00 +0000
 categories: [HTB]
 tags: [HTB, SQLi, WSL]
 image:
     path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Secnotes/secnotes.png
 ---
 
-![Screenshot_1.png](../assets/posts/Secnotes/Screenshot_1.png)
+![Screenshot 1.png](../assets/posts/Secnotes/Screenshot_1.png)
 
 - This Box runs a PHP application within an IIS webserver.
 - There is a SQLi vulnerability that allows us to create a user with a malicious name, and dump the SQL database which ends up containing credentials for user `tyler`

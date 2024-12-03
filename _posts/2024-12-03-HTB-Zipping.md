@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTB Zipping: Walkthrough"
-date: 2024-12-03 13:00:00 +0000
+date: 2024-12-03 12:00:00 +0000
 categories: [HTB]
 tags: [HTB, LFI, SQLi]
 image:
@@ -9,6 +9,7 @@ image:
 ---
 
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/53b7cbb5-9dc5-4d05-a458-b3f7cdbf181f)
+
 - First, we encounter a web server hosting a file upload, that filters for `.zip` archives that must contain a `.pdf`
 - We can leverage symlinks to basically perform LFI, and read the web applications source code.
 - We notice a certain parameter is vulnerable to SQLi, and exploit it to gain RCE.

@@ -36,7 +36,7 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: Apache/2.4.54 (Ubuntu)
 ```
 
-## 2) Web Enumeraton
+## 2) Web Enumeration
 
 Nothing really interesting as far as directory bruteforcing goes.
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/7340ca3d-310a-4ee8-8a3b-add880383fec)

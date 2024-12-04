@@ -17,19 +17,19 @@ image:
 - There is a bash.exe file within the filesystem, allowing us to run it and eventually cat out `.bash_history`, containing credentials belonging to `Administrator`.
 
 ## 0) Machine Overview:
-
+---
 1. [Scans](#1-scans)
 2. [Walkthrough](#2-walkthrough)
 
 ## 1) Scans
-
+---
 ![Untitled 60.png](../assets/posts/Secnotes/Untitled_60.png)
 
 ![Untitled 61.png](../assets/posts/Secnotes/Untitled_61.png)
 
 
 ## 2) Walkthrough
-
+---
 A run down: Through the nmap scan, we can see we have smb, and 2 web servers open. One on 80, and one on 8808.
 
 - First, we tried accessing the smb share, no luck.

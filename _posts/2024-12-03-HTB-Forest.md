@@ -12,21 +12,21 @@ image:
 
 This machine starts off with LDAP anonymous bind enabled, leading to the discovery of a user with no kerberos pre-auth required. We perform an AS-REP Roast attack on the user, and are able to access the machine with the cracked password. We then utilize Bloodhound to enumerate domain privileges, finding that the user is part of a few privileged groups. This eventually leads to a DC-Sync attack on the DC, compromising the domain.
 
-## 0) Machine Overview
----
+### 0) Machine Overview
+
 1. [Scans](#1-scans)
 2. [LDAP Enumeration](#2-ldap-enumeration)
 3. [AS-REPRoasting](#3-as-reproasting)
 4. [Privilege Escalation](#4-privilege-escalation)
 
-## 1) Scans
----
+### 1) Scans
+
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/d2c3fec9-46e2-47a4-a390-8206f8f15406)
 
 Seems like we're going to be interacting with Active Directory. After some enumeration and help from HackTricks, we find that the Domain is susceptible to anonymous binding, which allows us to enumerate/query LDAP for all kinds of information. Most importantly, we want to look for users.
 
-## 2) LDAP Enumeration
----
+### 2) LDAP Enumeration
+
 We first use ldapsearch: (Here I specified CN=users to gather some user information, which with this command it didn't prove too useful. However, the command in and of itself proves that anonymous bind works. Check [HackTricks](https://book.hacktricks.xyz/network-services-pentesting/pentesting-ldap#windapsearch) for more on syntax and tool usage)
 
 Turns out ldapsearch is useful, but the reason certain users didnt show up was because the actual users were not in CN=Users, but rather in OU=Employees.
@@ -41,8 +41,8 @@ Now that we have a list of users, lets see if any users do not have the "Kerbero
 What we're about to do is called AS-REPRoasting.
 
 
-## 3) AS-REPRoasting
----
+### 3) AS-REPRoasting
+
 Now we can use a tool called GetNPUsers.py that will do this for us. (If confused, check link up above). 
 We can either give a list of usernames along with the domain:
 ```
@@ -73,8 +73,8 @@ How about Psexec since SMB is open?
 No luck. In any case, we have a foothold. Let's begin with some enumeration via BloodHound. 
 
 
-## 4) Privilege Escalation
----
+### 4) Privilege Escalation
+
 For this, I uploaded SharpHound.ps1 via WinRM, but i couldn't get it to work properly. So let's try the python ingester:
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/cd4f70d1-9c76-4757-a1d1-8cdcdbb63b68)
 

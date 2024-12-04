@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Partyh4t's Labyrinth  # the main title
+title: Partyh4t's Arcanum  # the main title
 
 tagline: Toss a coin to your tester! # it will display as the subtitle
 
@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://partyh4t.github.io"
 
 github:
   username: partyh4t # change to your GitHub username

@@ -16,13 +16,11 @@ image:
 - Privilege escalation involves analyzing a binary locally, which loads a lib file that doesn't exist, allowing us to create our own and escalate.
 
 ### 0) Machine Overview
-
 1. [Scans](#1-scans)
 2. [Web Enumeration](#2-web-enumeration)
 3. [Privilege Escalation](#3-privilege-escalation)
 
 ### 1) Scans
-
 ```
 PORT   STATE SERVICE VERSION
 22/tcp open  ssh     OpenSSH 9.0p1 Ubuntu 1ubuntu7.3 (Ubuntu Linux; protocol 2.0)
@@ -37,7 +35,6 @@ PORT   STATE SERVICE VERSION
 ```
 
 ### 2) Web Enumeration
-
 Nothing really interesting as far as directory bruteforcing goes.
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/7340ca3d-310a-4ee8-8a3b-add880383fec)
 
@@ -113,7 +110,6 @@ If all goes well, we should receive a request to our python web-server, and then
 From there, we can just `ssh-keygen -t rsa -b 4096`, and then login via SSH.
 
 ### 3) Privilege Escalation
-
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/802a758e-3412-4c96-9ed7-58d4565b5883)
 
 If we run this binary, it just asks us for a password, without much in return. I tried putting a bunch of A's in the chances it could be overflowed, but it wasn't. Also, since the binary is owned by root, we can't even take it offline to analyze it, so we'll have to use whats available to us.
@@ -197,8 +193,7 @@ Pwned.
 
 -----
 
-**Post-Machine Notes:**
-
+**Post-Machine Notes**
 In the context of the SQLi, the way you were meant to know that you can write files to the filesystem, was if you analyzed the /var/www/html/functions.php file from the zip file symlink vulnerability, we'd notice that the DB is running as the root db user, which as that user, gives us the ability to write to the file system, usually a good bet is placing it in `/dev/shm` or `/var/lib/mysql`.
 
 Also, you could also have performed a UNION SQLi as well, its not an OOB SQLi like I thought it was, albeit there wasn't much to retrieve from the DB.

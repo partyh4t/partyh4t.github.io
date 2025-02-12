@@ -28,9 +28,9 @@
   icon: 'fa-solid fa-cube'
   url:  'https://app.hackthebox.com/users/792682'                  # Fill with your stackoverflow homepage
 #
-# - type: bluesky
-#   icon: 'fa-brands fa-bluesky'
-#   url: ''                   # Fill with your Bluesky profile link
+- type: tryhackme
+  icon: 'fa-solid fa-cloud'
+  url: 'https://tryhackme.com/p/partyh4t'                   # Fill with your Bluesky profile link
 #
 # - type: reddit
 #   icon: 'fa-brands fa-reddit'

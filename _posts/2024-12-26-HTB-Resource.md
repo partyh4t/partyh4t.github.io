@@ -17,7 +17,6 @@ image:
 4. [SSH Certificate Authority](#4-ssh-certificate-authority)
 5. [SSH Certificate Authority Pt.2](#5-ssh-certificate-authority-pt.2)
 6. [SSH Certificate Authority Pt.3](#6-ssh-certificate-authority-pt.3)
-7. [](#-)
 
 ## 1) Scans
 

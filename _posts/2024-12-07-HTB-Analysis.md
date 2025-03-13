@@ -5,7 +5,7 @@ date: 2024-12-07 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, Active Directory, LDAP Injection, DLL Hijacking]
 image:
-    ![image](https://github.com/user-attachments/assets/742e59e8-673b-440f-a791-a69380913c99)
+    path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/Analysis.png
 ---
 
 ![image](https://github.com/user-attachments/assets/dfd701f8-8e96-4499-9919-a72adeb44b47)

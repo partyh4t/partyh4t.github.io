@@ -12,7 +12,7 @@ image:
 
 ## 0) Machine Overview
 1. [Scans](#1-scans)
-2. [Web Enumeration & Exploitation](#2-web-enumeration-&-exploitation)
+2. [Web Enumeration and Exploitation](#2-web-enumeration-and-exploitation)
 3. [Foothold](#3-foothold)
 4. [SSH Certificate Authority](#4-ssh-certificate-authority)
 5. [SSH Certificate Authority 2](#5-ssh-certificate-authority-2)
@@ -41,7 +41,7 @@ PORT     STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel                                                                                                                                                                       
 ```
 
-## 2) Web Enumeration & Exploitation
+## 2) Web Enumeration and Exploitation
 The machine hosts a file upload on the webserver that accepts zip archives. Additionally, there is a potential LFI in ?page=login:
 
 ![image](https://github.com/user-attachments/assets/f067f42a-b732-4948-8b31-87f460f5c432)

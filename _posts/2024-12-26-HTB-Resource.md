@@ -15,8 +15,8 @@ image:
 2. [Web Enumeration & Exploitation](#2-web-enumeration-&-exploitation)
 3. [Foothold](#3-foothold)
 4. [SSH Certificate Authority](#4-ssh-certificate-authority)
-5. [SSH Certificate Authority Pt.2](#5-ssh-certificate-authority-pt.2)
-6. [SSH Certificate Authority Pt.3](#6-ssh-certificate-authority-pt.3)
+5. [SSH Certificate Authority 2](#5-ssh-certificate-authority-2)
+6. [SSH Certificate Authority 3](#6-ssh-certificate-authority-3)
 
 ## 1) Scans
 
@@ -95,7 +95,7 @@ ssh-keygen -s /path/to/ca-privatekey -I my_cert_id -n root -V +52w id_rsa.pub
 ssh root@10.10.11.27 -i party -o CertificateFile=party-cert.pub
 ```
 
-## 5) SSH Certificate Authority Pt.2
+## 5) SSH Certificate Authority 2
 
 Now if we go to zzinters home directory, we notice a new interesting file named `sign_key_api.sh`, which seems to do pretty much the same thing we just did, but via an API on a different subdomain.
 ```
@@ -159,7 +159,7 @@ $ bash api.sh zzinter.pub hello zzinter_temp
 ssh-rsa-cert-v01@openssh.com AAAAHHNzaC1yc2EtY2VydC12MDFAb3BlbnNzaC5jb20AAAAgUNkl+Ifi2MD2l4uZ4NhKFxFkWbP5d2VKMVIPE7+OgfMAAAADAQABAAACAQDAmRrSQJT81twoGZZLv4ESxTK/yRRRZoEKoqaPE9l2TEoSC2r62sLcXILGQhWc5+L6aQ4bFC6UKcMO9kegWDP/S7Atpw46rWkJXxT0AuNQd5Jq+MJCJWrwHRFZJII5X607SKbxXCVTsMMZuy2wgfRNuXUJg9VIm8sJtnH9MvsEGQJdACRSnB2D6kSi4NZG4+UpJpcZN5lVTT/8VL8K554amACmrF0+2kvBLDtE7IsLnxaoswF4Ie0aKSvg9qmAS5/9TsNxfGWDpRktPOFwkpzHisdZPqfL5gF0WvXQGP2uWBn1Iprwjyp2FQh9pbIA4eQAdWtGxUVl2ajk8Jt38yPtrHZEvboI4jrFbblhpBGWS9SGppcB3CEtWIwKAW6EEVTtO4+IKy3Dma7e+I8E0RqCbWYG1wPs7LN0NJCBoQkunBnwXPzQWphYFGCs/NGZDByJNT+4h+Pi4w1FqtHdn5lkFq5Xyx7/Y5EOKNAyXvAW1oFtJxerQqmZS8rI+bWAhDBMdrbyunLJ7v3OU/ENeBwf5aT1Rmzr/J/sUpWlaBBwuJQsnCSIgh5M8UWg56KSFJUeX+UT4RSvYilcuHTTd2D7VirbwmTGGEA1PenjkuT9e7g/DbmCXSf1L3UK38kVusVmG3Z4A6w81zqbjrs2yZiPqEo/k0IBBM9pCqv1ZAVcyQAAAAAAAAAxAAAAAQAAAAVoZWxsbwAAABAAAAAMenppbnRlcl90ZW1wAAAAAGar2CH//////////wAAAAAAAACCAAAAFXBlcm1pdC1YMTEtZm9yd2FyZGluZwAAAAAAAAAXcGVybWl0LWFnZW50LWZvcndhcmRpbmcAAAAAAAAAFnBlcm1pdC1wb3J0LWZvcndhcmRpbmcAAAAAAAAACnBlcm1pdC1wdHkAAAAAAAAADnBlcm1pdC11c2VyLXJjAAAAAAAAAAAAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIIHg8Cudy1ShyYfqzC3ANlgAcW7Q4MoZuezAE8mNFSmxAAAAUwAAAAtzc2gtZWQyNTUxOQAAAEACqbNyHYkrYF9rNoBkYsGNGHFqiNLPP39f5bhXBYRpA+uczq5eLYwlqSrUkCZxUK3dUSQxqScF13w4Kgg09OkE kali@kali
 ```
 
-## 6) SSH Certificate Authority Pt.3
+## 6) SSH Certificate Authority 3
 Once ssh’d in, we have sudo privileges over a new script:
 
 ![image](https://github.com/user-attachments/assets/38ff817e-e80b-412d-b299-9f542b22d58f)

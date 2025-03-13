@@ -97,7 +97,7 @@ This is interesting as, its almost as if its taking our input and using it direc
 Confirmation it is indeed injectable:
 
 [*(PaylaodsAllTheThings Example Payloads)*](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/LDAP%20Injection/README.md)
-[*(Default Attributes)*](http://www.phpldaptools.com/reference/Default-Schema-Attributes/)
+[*(Default Attributes)*](https://www.phpldaptools.com/reference/Default-Schema-Attributes/)
 
 ![image](https://github.com/user-attachments/assets/9e68e2df-88e7-4ac9-ad56-5b06a32e3784)
 ![image](https://github.com/user-attachments/assets/8aa17202-4e61-4a20-bf63-0629ec02b85f)

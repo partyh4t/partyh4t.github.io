@@ -4,8 +4,6 @@ title: "HTB Resource: Walkthrough"
 date: 2024-12-26 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, File Upload, Bash Globbing, SSH-Certs]
-image:
-    path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/Resource.png
 ---
 
 ![image](https://github.com/user-attachments/assets/8783ebc9-b696-4318-9a94-3e03c089a943)

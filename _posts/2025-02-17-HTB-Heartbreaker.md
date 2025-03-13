@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTB Heartbreaker: Walkthrough"
-date: 2024-02-17 11:00:00 +0000
+date: 2025-02-17 11:00:00 +0000
 categories: [HTB]
 tags: [HTB, Sherlock, ]
 image:

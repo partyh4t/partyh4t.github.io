@@ -4,8 +4,6 @@ title: "HTB Secnotes: Walkthrough"
 date: 2024-12-03 11:00:00 +0000
 categories: [HTB]
 tags: [HTB, SQLi, WSL]
-image:
-    path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Secnotes/secnotes.png
 ---
 
 ![Screenshot 1.png](../assets/posts/Secnotes/Screenshot_1.png)

@@ -10,6 +10,9 @@ image:
 
 ![image](https://github.com/user-attachments/assets/8783ebc9-b696-4318-9a94-3e03c089a943)
 
+Starting off, we encounter a web application thats vulnerable to a zip archive file upload vulnerability, allowing us to utilize `phar://` to execute a shell and gain a foothold onto the system. Following this, we can dump the SQL database on the host, and are able to retrieve a set of credentials because of it. Then, a long sequence of multiple SSH Certificate Authority misconfigurations are abused to escalate privileges 3 times.
+
+
 ## 0) Machine Overview
 1. [Scans](#1-scans)
 2. [Web Enumeration and Exploitation](#2-web-enumeration-and-exploitation)

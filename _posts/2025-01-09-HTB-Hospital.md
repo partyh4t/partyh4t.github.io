@@ -5,10 +5,12 @@ date: 2025-01-09 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, File Upload, GhostScript, Hash Cracking]
 image:
-  path: https://github.com/partyh4t/partyh4t.github.io/blob/265706dcd47a79b66a20ef6d2fc9a09e1b727453/assets/posts/Headers/HTB.png
+  path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/user-attachments/assets/65b4546b-3fed-4dbb-81a7-6c574288e198)
+
+Our attack on the target begins with a file upload vulnerability allowing us to upload a phar file gaining RCE on the target. This is followed with exploitation of `CVE-2023-32629` due to a vulnerable kernel version, giving us SSH access to the target. Then, we utilize our access on the machine to extract and crack a user's password from /etc/shadow. We use that check for any password reuse on an additional webserver thats vulnerable to `CVE-2023-36664`, giving us access to the host machine. Finally, we can utilize the running webserver running as SYSTEM to host our own `.php` web shell file, rooting the machine.
 
 ## 0) Machine Overview
 1. [Scans](#1-scans)

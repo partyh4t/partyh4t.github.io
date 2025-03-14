@@ -4,6 +4,8 @@ title: "HTB Heartbreaker: Walkthrough"
 date: 2025-02-17 11:00:00 +0000
 categories: [HTB]
 tags: [HTB, Sherlock, ZimmermanTools]
+image:
+  path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/user-attachments/assets/a307d9ae-40f0-4261-a4fb-553c8ac6f0b5)

@@ -4,6 +4,8 @@ title: "HTB Hospital: Walkthrough"
 date: 2025-01-09 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, File Upload, GhostScript, Hash Cracking]
+image:
+  path: https://github.com/partyh4t/partyh4t.github.io/blob/265706dcd47a79b66a20ef6d2fc9a09e1b727453/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/user-attachments/assets/65b4546b-3fed-4dbb-81a7-6c574288e198)

@@ -4,6 +4,8 @@ title: "HTB Bastard: Walkthrough"
 date: 2024-12-03 11:00:00 +0000
 categories: [HTB]
 tags: [HTB, Drupal, CVE]
+image:
+  path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/partyh4t/Write-ups/assets/114421293/3061d92f-1f6d-4189-a9e4-e510b14e004c)

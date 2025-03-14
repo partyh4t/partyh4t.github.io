@@ -4,6 +4,8 @@ title: "HTB Zipping: Walkthrough"
 date: 2024-12-03 12:00:00 +0000
 categories: [HTB]
 tags: [HTB, LFI, SQLi]
+image:
+  path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/53b7cbb5-9dc5-4d05-a458-b3f7cdbf181f)

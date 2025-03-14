@@ -4,6 +4,8 @@ title: "HTB Forest: Walkthrough"
 date: 2024-12-03 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, Active Directory, LDAP, AS-REP Roasting]
+image:
+  path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
 
 ![image](https://github.com/partyh4t/Cyber-Notes/assets/114421293/b5f78c88-9502-468b-87ee-63a6895921f8)

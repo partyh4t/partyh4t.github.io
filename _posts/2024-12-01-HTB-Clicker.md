@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HTB Hospital: Walkthrough"
+title: "HTB Clicker: Walkthrough"
 date: 2024-12-01 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, File Upload, GhostScript, Hash Cracking]

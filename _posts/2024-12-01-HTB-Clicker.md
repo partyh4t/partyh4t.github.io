@@ -192,6 +192,7 @@ Before we try SSHing in, we'll need to fix the format of the key by adding a few
 I had to add 2 `-` to the start and end for it to work.
 
 Now we can finally SSH in:
+
 ![image](https://github.com/user-attachments/assets/4f8be621-904d-462c-a785-666a45891b96)
 
 ## 5) Privilege Escalation 2

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTB Surveillance: Walkthrough"
-date: 2024-11-18 10:00:00 +0000
+date: 2024-11-17 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, CVE, Sudo, Port Forwarding]
 image:

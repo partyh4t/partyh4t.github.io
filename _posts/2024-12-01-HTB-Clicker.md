@@ -3,7 +3,7 @@ layout: post
 title: "HTB Clicker: Walkthrough"
 date: 2024-12-01 10:00:00 +0000
 categories: [HTB]
-tags: [HTB, File Upload, GhostScript, Hash Cracking]
+tags: [HTB, SQL Injection, CRLF Injection, Bin Exploitation, CVE]
 image:
   path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---

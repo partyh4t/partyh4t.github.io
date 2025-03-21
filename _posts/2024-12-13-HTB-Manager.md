@@ -14,7 +14,7 @@ This machine begins with a password spray on the machine, which is domain joined
 
 ## 0) Machine Overview
 1. [Scans](#1-scans)
-2. [SMB & RPC Enumeration](#2-smb-&-rpc-enumeration)
+2. [RPC Enumeration](#2-rpc-enumeration)
 3. [MSSQL](#3-mssql)
 4. [Privilege Escalation](#4-privilege-escalation)
 
@@ -47,7 +47,7 @@ Enum4Linux:
 ![image](https://github.com/user-attachments/assets/5d0ac41d-077e-4d60-aa99-38d63950ff85)
 
 
-## 2) SMB & RPC Enumeration
+## 2) RPC Enumeration
 
 Couldn't do much with the SMB shares.
 

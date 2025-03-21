@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTB Forest: Walkthrough"
-date: 2024-12-03 10:00:00 +0000
+date: 2024-11-06 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, Active Directory, LDAP, AS-REP Roasting]
 image:

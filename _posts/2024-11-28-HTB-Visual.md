@@ -36,9 +36,11 @@ Running (JUST GUESSING): Microsoft Windows 2019 (87%)
 ![image](https://github.com/user-attachments/assets/48b6ed67-4372-46cc-9283-20a1c5217045)
 
 So here we have a web application that basically offers to compile our code for us, using Visual Studio. I tried putting a random GitHub repo of mine:
+
 ![image](https://github.com/user-attachments/assets/1d143738-925b-4287-9224-e46691c432d9)
 
 So I started researching of ways to potentially exploit this, and almost instantly, I came across [this](https://github.com/cjm00n/EvilSln).
+
 ![image](https://github.com/user-attachments/assets/9fdf1b4b-7030-4b7b-be6d-350a5cf28302)
 
 After reading it, it gives a brief explanation about multiple "vulnerabilities" within Visual Studio which Microsoft doesn't seem to even consider as vulnerabilities. So we can leverage this to make our `.csproj` program execute code before being compiled. Once that's done, we can host a Git repository locally, since the machine isn't connected to the internet.

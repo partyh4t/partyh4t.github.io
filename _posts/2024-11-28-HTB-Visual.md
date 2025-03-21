@@ -3,7 +3,7 @@ layout: post
 title: "HTB Visual: Walkthrough"
 date: 2024-11-28 10:00:00 +0000
 categories: [HTB]
-tags: [HTB, CVE, Sudo, Port Forwarding]
+tags: [HTB, C#, SeImpersonatePrivilege]
 image:
   path: https://raw.githubusercontent.com/partyh4t/partyh4t.github.io/refs/heads/main/assets/posts/Headers/HTB.png
 ---
@@ -15,7 +15,7 @@ This is a relatively short machine, starting off with a web app that allows us t
 ## 0) Machine Overview
 1. [Scans](#1-scans)
 2. [Web Enumeration](#2-web-enumeration)
-4. [Privilege Escalation](#3-privilege-escalation)
+3. [Privilege Escalation](#3-privilege-escalation)
 
 ## 1) Scans
 ```

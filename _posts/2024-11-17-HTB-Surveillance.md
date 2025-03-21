@@ -15,12 +15,12 @@ We start off with exploiting a CVE in a vulnerable CraftCMS running on the targe
 ## 0) Machine Overview
 1. [Scans](#1-scans)
 2. [Web Enumeration](#2-web-enumeration)
-4. [Privilege Escalation](#3-privilege-escalation)
-5. [Privilege Escalation 2](#4-privilege-escalation-2)
-6. [Privilege Escalation 3](#5-privilege-escalation-3)
+3. [Privilege Escalation](#3-privilege-escalation)
+4. [Privilege Escalation 2](#4-privilege-escalation-2)
+5. [Privilege Escalation 3](#5-privilege-escalation-3)
 
 
-### 1) Scans
+## 1) Scans
 
 ```
 22/tcp   open  ssh     OpenSSH 8.9p1 Ubuntu 3ubuntu0.4 (Ubuntu Linux; protocol 2.0)

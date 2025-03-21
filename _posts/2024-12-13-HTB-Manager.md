@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HTB Manager: Walkthrough"
-date: 2024-12-07 10:00:00 +0000
+date: 2024-12-13 10:00:00 +0000
 categories: [HTB]
 tags: [HTB, Password Spraying, MSSQL, ADCS]
 image:
@@ -95,7 +95,9 @@ Let's try dumping the LDAP Server:
 
 ![image](https://github.com/user-attachments/assets/df7bbd3c-ac7a-4a0b-a47d-da23bd0baea9)
 
-`sudo ldapdomaindump 10.10.11.236 -u 'manager.htb\operator' -p 'operator' --no-json --no-grep -o ldap-dump`
+```
+sudo ldapdomaindump 10.10.11.236 -u 'manager.htb\operator' -p 'operator' --no-json --no-grep -o ldap-dump
+```
 
 Not much there either. 
 
@@ -138,7 +140,9 @@ Lets try it on winrm:
 ## 4) Privilege Escalation
 
 Lets run Bloodhound first:
-`bloodhound-python -c all -u raven -p 'R4v3nBe5tD3veloP3r!123' --zip -d manager.htb -ns 10.10.11.236`
+```
+bloodhound-python -c all -u raven -p 'R4v3nBe5tD3veloP3r!123' --zip -d manager.htb -ns 10.10.11.236
+```
 
 Didn't find anything noteworthy. Lets see what AD CS has in store for us.
 
@@ -164,7 +168,7 @@ Attack 2
 
 ![image](https://github.com/user-attachments/assets/852db652-eb1f-4dbf-a369-6bec83fb72d3)
 
-Ill be trying Attack 2: ([Certipy's](https://github.com/ly4k/Certipy?tab=readme-ov-file#certificates) README.md shows how to exploit each ESC)
+Ill be trying Attack 2: [Certipy's](https://github.com/ly4k/Certipy?tab=readme-ov-file#certificates) README.md shows how to exploit each ESC
 
 **NOTE: the server seems to reset its settings automatically quite quickly, so we have to be relatively fast and issue the commands in quick succession.**
 

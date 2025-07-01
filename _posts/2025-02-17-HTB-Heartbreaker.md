@@ -22,9 +22,11 @@ First, I decided to explore the user’s appdata folder, and found a .ost file, 
 ![image](https://github.com/user-attachments/assets/11d4fe14-dfde-499f-b3c6-ae6fd61c7493)
 
 ![image](https://github.com/user-attachments/assets/076adcc4-600c-4068-90ae-cdb8f87efec7)
+
 As we can see, there is an interesting and suspicious email with an embedded file.
 
 We can go to the properties and see the senders email:
+
 ![image](https://github.com/user-attachments/assets/b139cfff-fe87-4701-9d87-85d0c734dc16)
 
 ### 2) It appears there's a link within the email. Can you provide the complete URL where the malicious binary file was hosted?

@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-My name is Zayd (aka partyh4t). I've been teaching myself cybersecurity and the basics of IT since 2021, going through countless courses and various certifications in my freetime. I thoroughly enjoy network penetration testing, developing bots and automation scripts in Python, and creating malware to bypass EDR and AV solutions.
+My name is Zayd (aka partyh4t). I've been teaching myself cybersecurity and the basics of IT since 2021, and now currently work as a penetration tester. If I can get a job without a degree, so can you :)
 
 ## Certifications
 ---

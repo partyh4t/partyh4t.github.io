@@ -8,7 +8,6 @@ My name is Zayd (aka partyh4t). I've been teaching myself cybersecurity and the 
 
 ## Certifications
 ---
-- _Currently going through Maldev Academy_
 - Hack The Box Certified Web Exploitation Export (CWEE)
 - Zero-Point Security Certified Red Team Operator (CRTO)
 - Hack The Box Certified Defensive Security Analyst (CDSA)

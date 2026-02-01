@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-My name is Zayd (aka partyh4t). I've been teaching myself cybersecurity and the basics of IT since 2021, and now currently work as a penetration tester. If I can get a job without a degree, so can you :)
+My name is Zayd (aka partyh4t). I'm a self taught infosec professional and security hobbyist, and am currently working as a pentester. If I can get a job without a degree, so can you :)
 
 ## Certifications
 ---
